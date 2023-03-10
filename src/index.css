@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.all-center {
+  @apply justify-center items-center flex m-56
+}
+
+.letter-color {
+  @apply text-[#fde047] text-5xl
+}
+
+.letter-color-header-footer {
+   @apply text-[#404040] text-xl	font-bold
+}
+
+.color-header-footer {
+  @apply  bg-gray-300
+}
